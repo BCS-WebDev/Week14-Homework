@@ -32,131 +32,151 @@ import vanguard from './images/traits/vanguard.png';
 
 
 const bgStyle = {
-    backgroundImage: `url('${bg}')`,
-    // backgroundColor: `black`,
+    // backgroundImage: `url('${bg}')`,
+    backgroundColor: `rgba(46, 41, 41, 1)`,
     backgroundSize: 'cover', 
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    height: 1080
+    height: '100%'
 };
 
-const logoStyle = {
-    height: 250
-}
+const navbtnStyle = {
+    backgroundColor: `rgba(0, 0, 0, 0)`,
+    borderStyle: "solid",
+    borderColor: "darkgoldenrod",
+    color:"darkgoldenrod"
+};
 
 function App() {
     return (
         <div className="container-fluid" style={bgStyle}>
-            <header className="text-center">
-                <button className="btn btn-default bg-dark text-light float-left mt-sm-3">About</button>
-                <button className="btn btn-default bg-dark text-light float-left mt-sm-3">Champions</button>
-                <img className="mt-sm-3" src={logo} style={logoStyle}/>
-                <button className="btn btn-default bg-dark text-light float-right mt-sm-3">Galaxies</button>
-                <button className="btn btn-default bg-dark text-light float-right mt-sm-3">Items</button>
-            </header>    
+            <header className="text-center mb-sm-5">
+                <button className="btn btn-default float-left mt-sm-3" style={navbtnStyle}>About</button>
+                <button className="btn btn-default float-left mt-sm-3" style={navbtnStyle}>Champions</button>
+                <img className="mt-sm-3" src={logo} style={{ height: 225 }}/>
+                <button className="btn btn-default float-right mt-sm-3" style={navbtnStyle}>Galaxies</button>
+                <button className="btn btn-default float-right mt-sm-3" style={navbtnStyle}>Items</button>
+            </header>
 
-            <div className="row text-center mt-sm-1">
-                <div className="col-6">
-                
-                    <div className="dropdown">
-                        <button className="btn btn-default dropdown-toggle bg-dark text-light"
-                            type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Origins
-                        </button>
-                        <ul class="dropdown-menu bg-dark">
-                            <li><a href="#" className="text-light">
-                                <img src={astro} style={{ height: 50 }}/> Astro
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                                <img src={battlecast} style={{ height: 50 }}/> Battlecast
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={celestial} style={{ height: 50 }}/> Celestial
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={chrono} style={{ height: 50 }}/> Chrono
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={cybernetic} style={{ height: 50 }}/> cybernetic
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={darkstar} style={{ height: 50 }}/> Darkstar
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={mechpilot} style={{ height: 50 }}/> Mechpilot
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={rebel} style={{ height: 50 }}/> Rebel
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={spacepirate} style={{ height: 50 }}/> Spacepirate
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={starguardian} style={{ height: 50 }}/> Starguardian
-                            </a></li>
-                        </ul>
+            <br></br><br></br>
+
+            <div className="row text-center">
+                <div className="col-3">
+                    <div className="row mb-sm-2">
+                        <div className="col-12">
+                            <a href="#">
+                                <img src={astro} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={battlecast} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={celestial} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={chrono} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={cybernetic} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={darkstar} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={mechpilot} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={rebel} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={spacepirate} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={starguardian} style={{ height: 50 }}/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="row mb-sm-5">
+                        <div className="col-12">
+                            <img src={astro} style={{ height: 75 }}/>
+                            <h6 className="" style={{ color:"darkgoldenrod" }}>Astro</h6>
+                        </div>
+                    </div>
+
+                    <div className="row mb-sm-2">
+                        <div className="col-12">
+                            <a href="#">
+                                <img src={blademaster} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={blaster} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={brawler} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={demolitionist} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={infiltrator} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={manareaver} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={mercenary} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={mystic} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={paragon} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={protector} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={sniper} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={sorcerer} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={starship} style={{ height: 50 }}/>
+                            </a>
+                            <a href="#">
+                                <img src={vanguard} style={{ height: 50 }}/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="row mb-sm-5">
+                        <div className="col-12">
+                            <img src={blademaster} style={{ height: 75 }}/>
+                            <h6 className="" style={{ color:"darkgoldenrod" }}>Blademaster</h6>
+                        </div>
                     </div>
                 </div>
 
-                <div className="col-6">
-                    <div class="dropdown float-center">
-                    <button className="btn btn-default dropdown-toggle bg-dark text-light"
-                            type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Traits
-                        </button>
-                        <ul class="dropdown-menu bg-dark">
-                            <li><a href="#" className="text-light">
-                                <img src={blademaster} style={{ height: 50 }}/> Blademaster
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                                <img src={blaster} style={{ height: 50 }}/> Blaster
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={brawler} style={{ height: 50 }}/> Brawler
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={demolitionist} style={{ height: 50 }}/> Demolitionist
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={infiltrator} style={{ height: 50 }}/> Infiltrator
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={manareaver} style={{ height: 50 }}/> Manareaver
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={mercenary} style={{ height: 50 }}/> Mercenary
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={mystic} style={{ height: 50 }}/> Mystic
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={paragon} style={{ height: 50 }}/> Paragon
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={protector} style={{ height: 50 }}/> Protector
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                                <img src={sniper} style={{ height: 50 }}/> Sniper
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                                <img src={sorcerer} style={{ height: 50 }}/> Sorcerer
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={starship} style={{ height: 50 }}/> Starship
-                            </a></li>
-                            <li><a href="#" className="text-light">
-                            <img src={vanguard} style={{ height: 50 }}/> Vanguard
-                            </a></li>
-                        </ul>
+                <div className="col-9">
+                    <div className="row">
+                        <div className="col-4">
+                            <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ahri_14.jpg" style={{ height: 400 }}/>
+                            <h5 className="" style={{ color:"darkgoldenrod" }}>Ahri</h5>
+                        </div>
+                        <div className="col-4">
+                            <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ahri_14.jpg" style={{ height: 400 }}/>
+                            <h5 className="" style={{ color:"darkgoldenrod" }}>Ahri</h5>
+                        </div>
+                        <div className="col-4">
+                            <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ahri_14.jpg" style={{ height: 400 }}/>
+                            <h5 className="" style={{ color:"darkgoldenrod" }}>Ahri</h5>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="row text-center mt-sm-3">
-                <div className="col-12">
-                    
-                </div>
-            </div>
-
-            
+            </div>  
         
         </div>
     );
