@@ -1,8 +1,5 @@
-import React from 'react';
-import './App.css';
 
-import bg from './images/tft-bg.jpg';
-import logo from './images/tft-logo.png';
+import React from 'react';
 
 import bfsword from './images/items/01.png';
 import recurvebow from './images/items/02.png';
@@ -70,35 +67,7 @@ import thiefsgloves from './images/items/99.png';
 
 import none from './images/none.png';
 
-const bgStyle = {
-    backgroundImage: `url('${bg}')`,
-    backgroundSize: 'cover', 
-    backgroundPosition: 'center center',
-    backgroundRepeat: 'no-repeat',
-    height: '100%'
-};
-
-const navbtnStyle = {
-    backgroundColor: `rgba(0, 0, 0, 0)`,
-    borderStyle: "solid",
-    borderColor: "darkgoldenrod",
-    color:"darkgoldenrod"
-};
-
-function App() {
-    return (
-        <div className="container-fluid">
-            <header className="text-center mb-sm-5">
-                <button className="btn btn-default float-left mt-sm-3" style={navbtnStyle}>About</button>
-                <button className="btn btn-default float-left mt-sm-3" style={navbtnStyle}>Champions</button>
-                <img className="mt-sm-3" src={logo} style={{ height: 225 }}/>
-                <button className="btn btn-default float-right mt-sm-3" style={navbtnStyle}>Galaxies</button>
-                <button className="btn btn-default float-right mt-sm-3" style={navbtnStyle}>Items</button>
-            </header>
-
-            <hr></hr><br></br><br></br>
-
-            <div className="row text-center">
+<div className="row text-center">
                 <div className="col-3">
                     <div className="row mb-sm-3">
                         <div className="col-12">
@@ -370,9 +339,3 @@ function App() {
                 </div>
 
             </div>  
-        
-        </div>
-    );
-}
-
-export default App;
