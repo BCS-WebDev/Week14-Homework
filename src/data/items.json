@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "B.F. Sword",
+    "description": ""
+},
+  {
+    "id": 2,
+    "name": "Recurve Bow",
+    "description": ""
+},
+  {
+    "id": 3,
+    "name": "Needlessly Large Rod",
+    "description": ""
+},
+  {
+    "id": 4,
+    "name": "Tear of the Goddess",
+    "description": ""
+},
+  {
+    "id": 5,
+    "name": "Chain Vest",
+    "description": ""
+},
+  {
+    "id": 6,
+    "name": "Negatron Cloak",
+    "description": ""
+},
+  {
+    "id": 7,
+    "name": "Giant's Belt",
+    "description": ""
+},
+  {
+    "id": 8,
+    "name": "Spatula",
+    "description": ""
+},
+  {
+    "id": 9,
+    "name": "Sparring Gloves",
+    "description": ""
+},
+  {
+    "id": 11,
+    "name": "Deathblade",
+    "description": "Contributing to a kill grants the holder +25 Attack Damage for the rest of combat. This effect can stack any number of times (starting at 1.0)."
+},
+  {
+    "id": 12,
+    "name": "Giant Slayer",
+    "description": ""
+},
+  {
+    "id": 13,
+    "name": "Hextech Gunblade",
+    "description": ""
+},
+  {
+    "id": 14,
+    "name": "Spear of Shojin",
+    "description": ""
+},
+  {
+    "id": 15,
+    "name": "Guardian Angel",
+    "description": ""
+},
+  {
+    "id": 16,
+    "name": "Bloodthirster",
+    "description": ""
+},
+  {
+    "id": 17,
+    "name": "Zeke's Herald",
+    "description": ""
+},
+  {
+    "id": 18,
+    "name": "Blade of the Ruined King",
+    "description": ""
+},
+  {
+    "id": 19,
+    "name": "Infinity Edge",
+    "description": ""
+},
+  {
+    "id": 22,
+    "name": "Rapid Firecannon",
+    "description": ""
+},
+  {
+    "id": 23,
+    "name": "Guinsoo's Rageblade",
+    "description": ""
+},
+  {
+    "id": 24,
+    "name": "Statikk Shiv",
+    "description": ""
+},
+  {
+    "id": 25,
+    "name": "Titan's Resolve",
+    "description": ""
+},
+  {
+    "id": 26,
+    "name": "Runaan's Hurricane",
+    "description": ""
+},
+  {
+    "id": 27,
+    "name": "Zz'Rot Portal",
+    "description": ""
+},
+  {
+    "id": 28,
+    "name": "Infiltrator's Talons",
+    "description": ""
+},
+  {
+    "id": 29,
+    "name": "Last Whisper",
+    "description": ""
+},
+  {
+    "id": 33,
+    "name": "Rabadon's Deathcap",
+    "description": ""
+},
+  {
+    "id": 34,
+    "name": "Luden's Echo",
+    "description": ""
+},
+  {
+    "id": 35,
+    "name": "Locket of the Iron Solari",
+    "description": ""
+},
+  {
+    "id": 36,
+    "name": "Ionic Spark",
+    "description": ""
+},
+  {
+    "id": 37,
+    "name": "Morellonomicon",
+    "description": ""
+},
+  {
+    "id": 38,
+    "name": "Battlecast Armor",
+    "description": ""
+},
+  {
+    "id": 39,
+    "name": "Jeweled Gauntlet",
+    "description": ""
+},
+  {
+    "id": 44,
+    "name": "Seraph's Embrace",
+    "description": ""
+},
+  {
+    "id": 45,
+    "name": "Frozen Heart",
+    "description": ""
+},
+  {
+    "id": 46,
+    "name": "Chalice of Favor",
+    "description": ""
+},
+  {
+    "id": 47,
+    "name": "Redemption",
+    "description": ""
+},
+  {
+    "id": 48,
+    "name": "Star Guardian's Charm",
+    "description": ""
+},
+  {
+    "id": 49,
+    "name": "Hand Of Justice",
+    "description": ""
+},
+  {
+    "id": 55,
+    "name": "Bramble Vest",
+    "description": ""
+},
+  {
+    "id": 56,
+    "name": "Sword Breaker",
+    "description": ""
+},
+  {
+    "id": 57,
+    "name": "Red Buff",
+    "description": ""
+},
+  {
+    "id": 58,
+    "name": "Rebel Medal",
+    "description": ""
+},
+  {
+    "id": 59,
+    "name": "Shroud of Stillness",
+    "description": ""
+},
+  {
+    "id": 66,
+    "name": "Dragon's Claw",
+    "description": ""
+},
+  {
+    "id": 67,
+    "name": "Zephyr",
+    "description": ""
+},
+  {
+    "id": 68,
+    "name": "Celestial Orb",
+    "description": ""
+},
+  {
+    "id": 69,
+    "name": "Quicksilver",
+    "description": ""
+},
+  {
+    "id": 77,
+    "name": "Warmog's Armor",
+    "description": ""
+},
+  {
+    "id": 78,
+    "name": "Protector's Chestguard",
+    "description": ""
+},
+  {
+    "id": 79,
+    "name": "Trap Claw",
+    "description": ""
+},
+  {
+    "id": 88,
+    "name": "Force of Nature",
+    "description": ""
+},
+  {
+    "id": 89,
+    "name": "Dark Star's Heart",
+    "description": ""
+},
+  {
+    "id": 99,
+    "name": "Thief's Gloves",
+    "description": "" 
+  }
+]
