@@ -7,7 +7,8 @@
     "sets": [
       {
         "style": "gold",
-        "min": 3
+        "min": 3,
+        "effect": "Reduce mana cost by 30"
       }
     ]
   },
@@ -20,21 +21,25 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "80 Healing or Damage"
       },
       {
         "style": "silver",
         "min": 4,
-        "max": 5
+        "max": 5,
+        "effect": "180 Healing or Damage"
       },
       {
         "style": "gold",
         "min": 6,
-        "max": 7
+        "max": 7,
+        "effect": "480 Healing or Damage"
       },
       {
         "style": "chromatic",
-        "min": 8
+        "min": 8,
+        "effect": "1000 Healing or Damage"
       }
     ]
   },
@@ -47,16 +52,19 @@
       {
         "style": "bronze",
         "min": 3,
-        "max": 5
+        "max": 5,
+        "effect": "30% Chance to trigger"
       },
       {
         "style": "gold",
         "min": 6,
-        "max": 8
+        "max": 8,
+        "effect": "65% Chance to trigger"
       },
       {
         "style": "chromatic",
-        "min": 9
+        "min": 9,
+        "effect": "100% Chance to trigger"
       }
     ]
   },
@@ -69,11 +77,13 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "3 Additional Attacks"
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "effect": "6 Additional Attacks"
       }
     ]
   },
@@ -86,11 +96,13 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "350 Bonus Health"
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "effect": "600 Bonus Health"
       }
     ]
   },
@@ -103,16 +115,19 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "15% Healing"
       },
       {
         "style": "gold",
         "min": 4,
-        "max": 5
+        "max": 5,
+        "effect": "45% Healing"
       },
       {
         "style": "chromatic",
-        "min": 6
+        "min": 6,
+        "effect": "150% Healing"
       }
     ]
   },
@@ -125,21 +140,25 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "Every 8 seconds"
       },
       {
         "style": "silver",
         "min": 4,
-        "max": 5
+        "max": 5,
+        "effect": "Every 3 seconds"
       },
       {
         "style": "gold",
         "min": 6,
-        "max": 7
+        "max": 7,
+        "effect": "Every 1 seconds"
       },
       {
         "style": "chromatic",
-        "min": 8
+        "min": 8,
+        "effect": "Every 0.5 seconds"
       }
     ]
   },
@@ -152,11 +171,13 @@
       {
         "style": "bronze",
         "min": 3,
-        "max": 5
+        "max": 5,
+        "effect": "300 Health & 35 Attack Damage"
       },
       {
         "style": "gold",
-        "min": 6
+        "min": 6,
+        "effect": "550 Health & 70 Attack Damage"
       }
     ]
   },
@@ -166,20 +187,29 @@
     "description": "When a Dark Star champion dies they give increased damage, plus any previous stacks of this effect, to the nearest ally Dark Star champion.",
     "type": "origin",
     "sets": [
-      {
-        "style": "bronze",
-        "min": 3,
-        "max": 5
-      },
-      {
-        "style": "gold",
-        "min": 6,
-        "max": 8
-      },
-      {
-        "style": "chromatic",
-        "min": 9
-      }
+        {
+            "style": "bronze",
+            "min": 2,
+            "max": 3,
+            "effect": "8 Attack Damage and Spell Power"
+          },
+          {
+            "style": "silver",
+            "min": 4,
+            "max": 5,
+            "effect": "18 Attack Damage and Spell Power"
+          },
+          {
+            "style": "gold",
+            "min": 6,
+            "max": 7,
+            "effect": "28 Attack Damage and Spell Power"
+          },
+          {
+            "style": "chromatic",
+            "min": 8,
+            "effect": "48 Attack Damage and Spell Power"
+          }
     ]
   },
   {
@@ -190,7 +220,8 @@
     "sets": [
       {
         "style": "gold",
-        "min": 2
+        "min": 2,
+        "effect": "Damage from Demolitionists' spellcasts stun their targets for 1.50 seconds"
       }
     ]
   },
@@ -204,16 +235,19 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "40% Bonus Attack Speed. Refreshes on Takedown"
       },
       {
         "style": "gold",
         "min": 4,
-        "max": 5
+        "max": 5,
+        "effect": "80% Bonus Attack Speed. Refreshes on Takedown"
       },
       {
         "style": "chromatic",
-        "min": 6
+        "min": 6,
+        "effect": "150% Bonus Attack Speed. Refreshes on Takedown"
       }
     ]
   },
@@ -225,7 +259,8 @@
     "sets": [
       {
         "style": "gold",
-        "min": 2
+        "min": 2,
+        "effect": "Mana-Reaver's Basic Attacks increase the Mana cost of their target's next spellcast by 30%."
       }
     ]
   },
@@ -237,7 +272,8 @@
     "sets": [
       {
         "style": "gold",
-        "min": 3
+        "min": 3,
+        "effect": "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight."
       }
     ]
   },
@@ -249,7 +285,8 @@
     "sets": [
       {
         "style": "gold",
-        "min": 1
+        "min": 1,
+        "effect": "Mercenaries can buy upgrades for their Spells in the shop"
       }
     ]
   },
@@ -262,11 +299,13 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "50 Magic Resistance"
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "effect": "120 Magic Resistance"
       }
     ]
   },
@@ -278,7 +317,8 @@
     "sets": [
       {
         "style": "gold",
-        "min": 1
+        "min": 1,
+        "effect": "Ally Star Guardian basic attacks are converted to true damage. All other ally basic attacks are converted to magic damage"
       }
     ]
   },
@@ -291,16 +331,19 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "30% Maximum Health Shield"
       },
       {
         "style": "gold",
         "min": 4,
-        "max": 5
+        "max": 5,
+        "effect": "40% Maximum Health Shield"
       },
       {
         "style": "chromatic",
-        "min": 6
+        "min": 6,
+        "effect": "55% Maximum Health Shield"
       }
     ]
   },
@@ -313,16 +356,19 @@
       {
         "style": "bronze",
         "min": 3,
-        "max": 5
+        "max": 5,
+        "effect": "150 Shield & 10% Damage"
       },
       {
         "style": "gold",
         "min": 6,
-        "max": 8
+        "max": 8,
+        "effect": "225 Shield & 12% Damage"
       },
       {
         "style": "chromatic",
-        "min": 9
+        "min": 9,
+        "effect": "400 Shield & 20% Damage"
       }
     ]
   },
@@ -335,11 +381,13 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "9% Increased Damage per hex"
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "effect": "16% Increased Damage per hex"
       }
     ]
   },
@@ -349,25 +397,23 @@
     "description": "All allies have increased Spell Power.",
     "type": "class",
     "sets": [
-      {
-        "style": "bronze",
-        "min": 2,
-        "max": 3
-      },
-      {
-        "style": "silver",
-        "min": 4,
-        "max": 5
-      },
-      {
-        "style": "gold",
-        "min": 6,
-        "max": 7
-      },
-      {
-        "style": "chromatic",
-        "min": 8
-      }
+        {
+            "style": "bronze",
+            "min": 2,
+            "max": 3,
+            "effect": "20% Spell Power"
+          },
+          {
+            "style": "gold",
+            "min": 4,
+            "max": 5,
+            "effect": "40% Spell Power"
+          },
+          {
+            "style": "chromatic",
+            "min": 6,
+            "effect": "70% Spell Power"
+          }
     ]
   },
   {
@@ -379,11 +425,13 @@
       {
         "style": "bronze",
         "min": 2,
-        "max": 3
+        "max": 3,
+        "effect": "50% for 1 Gold"
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "effect": "50% for 1 Gold and 25% for a component item"
       }
     ]
   },
@@ -396,16 +444,19 @@
       {
         "style": "bronze",
         "min": 3,
-        "max": 5
+        "max": 5,
+        "effect": "15 Total Mana"
       },
       {
         "style": "gold",
         "min": 6,
-        "max": 8
+        "max": 8,
+        "effect": "25 Total Mana"
       },
       {
         "style": "chromatic",
-        "min": 9
+        "min": 9,
+        "effect": "60 Total Mana"
       }
     ]
   },
@@ -417,7 +468,8 @@
     "sets": [
       {
         "style": "gold",
-        "min": 1
+        "min": 1,
+        "effect": "Starships gain 40 mana per second, maneuver around the board, and are immune to movement impairing effects, but can't Basic Attack"
       }
     ]
   },
@@ -427,15 +479,23 @@
     "description": "Vanguard champions gain bonus Armor.",
     "type": "class",
     "sets": [
-      {
-        "style": "bronze",
-        "min": 2,
-        "max": 3
-      },
-      {
-        "style": "gold",
-        "min": 4
-      }
+        {
+            "style": "bronze",
+            "min": 2,
+            "max": 3,
+            "effect": "125 Armor"
+          },
+          {
+            "style": "gold",
+            "min": 4,
+            "max": 5,
+            "effect": "300 Armor"
+          },
+          {
+            "style": "chromatic",
+            "min": 6,
+            "effect": "900 Armor"
+          }
     ]
   }
 ]
