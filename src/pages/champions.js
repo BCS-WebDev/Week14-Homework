@@ -3,65 +3,38 @@ import React from 'react';
 
 import none from './images/none.png';
 
-import astro from '../images/origins/astro.png';
-import battlecast from '../images/origins/battlecast.png';
-import celestial from '../images/origins/celestial.png';
-import chrono from '../images/origins/chrono.png';
-import cybernetic from '../images/origins/cybernetic.png';
-import darkstar from '../images/origins/darkstar.png';
-import mechpilot from '../images/origins/mechpilot.png';
-import rebel from '../images/origins/rebel.png';
-import spacepirate from '../images/origins/spacepirate.png';
-import starguardian from '../images/origins/starguardian.png';
+// import astro from '../images/origins/astro.png';
+// import battlecast from '../images/origins/battlecast.png';
+// import celestial from '../images/origins/celestial.png';
+// import chrono from '../images/origins/chrono.png';
+// import cybernetic from '../images/origins/cybernetic.png';
+// import darkstar from '../images/origins/darkstar.png';
+// import mechpilot from '../images/origins/mechpilot.png';
+// import rebel from '../images/origins/rebel.png';
+// import spacepirate from '../images/origins/spacepirate.png';
+// import starguardian from '../images/origins/starguardian.png';
 
-import blademaster from '../images/traits/blademaster.png';
-import blaster from '../images/traits/blaster.png';
-import brawler from '../images/traits/brawler.png';
-import demolitionist from '../images/traits/demolitionist.png';
-import infiltrator from '../images/traits/infiltrator.png';
-import manareaver from '../images/traits/manareaver.png';
-import mercenary from '../images/traits/mercenary.png';
-import mystic from '../images/traits/mystic.png';
-import paragon from '../images/traits/paragon.png';
-import protector from '../images/traits/protector.png';
-import sniper from '../images/traits/sniper.png';
-import sorcerer from '../images/traits/sorcerer.png';
-import starship from '../images/traits/starship.png';
-import vanguard from '../images/traits/vanguard.png';
-
-import Champions from "../data/champions";
+// import blademaster from '../images/traits/blademaster.png';
+// import blaster from '../images/traits/blaster.png';
+// import brawler from '../images/traits/brawler.png';
+// import demolitionist from '../images/traits/demolitionist.png';
+// import infiltrator from '../images/traits/infiltrator.png';
+// import manareaver from '../images/traits/manareaver.png';
+// import mercenary from '../images/traits/mercenary.png';
+// import mystic from '../images/traits/mystic.png';
+// import paragon from '../images/traits/paragon.png';
+// import protector from '../images/traits/protector.png';
+// import sniper from '../images/traits/sniper.png';
+// import sorcerer from '../images/traits/sorcerer.png';
+// import starship from '../images/traits/starship.png';
+// import vanguard from '../images/traits/vanguard.png';
 
 import Thumbnail from "../components/ThumbnailItem/ThumbnailItem";
 
-const origins = [
-    astro,
-    battlecast,
-    celestial,
-    chrono,
-    cybernetic,
-    darkstar,
-    mechpilot,
-    rebel,
-    spacepirate,
-    starguardian
-];
-
-const traits = [
-    blademaster,
-    blaster,
-    brawler,
-    demolitionist,
-    infiltrator,
-    manareaver,
-    mercenary,
-    mystic,
-    paragon,
-    protector,
-    sniper,
-    sorcerer,
-    starship,
-    vanguard
-];
+import Champions from "../data/champions";
+import Origins from "../data/origins";
+import Traits from "../data/traits.json";
+import ChampionCard from "../components/ChampionCard";
 
 function Champions() {
     return (
@@ -70,7 +43,7 @@ function Champions() {
                 <div className="row mb-sm-2">
                     <div className="col-12">
                         {
-                            origins.map(origin => <Thumbnail src={origin} onClick={}/>)
+                            Origins.map(origin => <Thumbnail src={origin} onClick={} height={50}/>)
                         }
                         {/* <a href="#">
                             <img src={astro} style={{ height: 50 }}/>
@@ -115,7 +88,7 @@ function Champions() {
                 <div className="row mb-sm-2">
                     <div className="col-12">
                         {
-                            traits.map(trait => <Thumbnail item={trait} onClick={}/>)
+                            Traits.map(trait => <Thumbnail src={trait.src} onClick={} height={50}/>)
                         }
                         {/* <a href="#">
                             <img src={blademaster} style={{ height: 50 }}/>
@@ -173,7 +146,10 @@ function Champions() {
             <div className="col-9">
                 <div className="row">
                     {/* use state with data here */}
-                    <div className="col-4">
+                    {
+                        Champions.filter(champion => <ChampionCard name={champion.name} src={champion.src}/>)
+                    }
+                    {/* <div className="col-4">
                         <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ahri_14.jpg" style={{ height: 400 }}/>
                         <h5 className="" style={{ color:"darkgoldenrod" }}>Ahri</h5>
                     </div>
@@ -184,7 +160,7 @@ function Champions() {
                     <div className="col-4">
                         <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ahri_14.jpg" style={{ height: 400 }}/>
                         <h5 className="" style={{ color:"darkgoldenrod" }}>Ahri</h5>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

@@ -1,52 +1,9 @@
 [
   {
-    "key": "Astro",
-    "name": "Astro",
-    "description": "Astro Champions have reduced mana cost.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "gold",
-        "min": 3,
-        "effect": "Reduce mana cost by 30"
-      }
-    ]
-  },
-  {
-    "key": "Battlecast",
-    "name": "Battlecast",
-    "description": "Battlecast Champions, upon dealing or taking 10 instances of damage, heal if below half health, or deal magic damage to the nearest enemy if above half.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "bronze",
-        "min": 2,
-        "max": 3,
-        "effect": "80 Healing or Damage"
-      },
-      {
-        "style": "silver",
-        "min": 4,
-        "max": 5,
-        "effect": "180 Healing or Damage"
-      },
-      {
-        "style": "gold",
-        "min": 6,
-        "max": 7,
-        "effect": "480 Healing or Damage"
-      },
-      {
-        "style": "chromatic",
-        "min": 8,
-        "effect": "1000 Healing or Damage"
-      }
-    ]
-  },
-  {
     "key": "Set3_Blademaster",
     "name": "Blademaster",
     "description": "Blademasters' Basic Attacks have a chance to trigger two additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
+    "src": "../images/traits/blademaster.png",
     "type": "class",
     "sets": [
       {
@@ -72,6 +29,7 @@
     "key": "Blaster",
     "name": "Blaster",
     "description": "Every fourth Basic Attack from a Blaster fires additional attacks at random enemies. These additional attacks deal damage like Basic Attacks, trigger on-hit effects, and can critically hit.",
+    "src": "../images/traits/blaster.png",
     "type": "class",
     "sets": [
       {
@@ -91,6 +49,7 @@
     "key": "Set3_Brawler",
     "name": "Brawler",
     "description": "Brawlers gain bonus Maximum Health.",
+    "src": "../images/traits/brawler.png",
     "type": "class",
     "sets": [
       {
@@ -107,115 +66,10 @@
     ]
   },
   {
-    "key": "Set3_Celestial",
-    "name": "Celestial",
-    "description": "All allies heal for some of the damage they deal with spells and attacks.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "bronze",
-        "min": 2,
-        "max": 3,
-        "effect": "15% Healing"
-      },
-      {
-        "style": "gold",
-        "min": 4,
-        "max": 5,
-        "effect": "45% Healing"
-      },
-      {
-        "style": "chromatic",
-        "min": 6,
-        "effect": "150% Healing"
-      }
-    ]
-  },
-  {
-    "key": "Chrono",
-    "name": "Chrono",
-    "description": "All allies gain attack speed every few seconds.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "bronze",
-        "min": 2,
-        "max": 3,
-        "effect": "Every 8 seconds"
-      },
-      {
-        "style": "silver",
-        "min": 4,
-        "max": 5,
-        "effect": "Every 3 seconds"
-      },
-      {
-        "style": "gold",
-        "min": 6,
-        "max": 7,
-        "effect": "Every 1 seconds"
-      },
-      {
-        "style": "chromatic",
-        "min": 8,
-        "effect": "Every 0.5 seconds"
-      }
-    ]
-  },
-  {
-    "key": "Cybernetic",
-    "name": "Cybernetic",
-    "description": "Cybernetic champions with at least one item gain Health and Attack Damage.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "bronze",
-        "min": 3,
-        "max": 5,
-        "effect": "300 Health & 35 Attack Damage"
-      },
-      {
-        "style": "gold",
-        "min": 6,
-        "effect": "550 Health & 70 Attack Damage"
-      }
-    ]
-  },
-  {
-    "key": "DarkStar",
-    "name": "Dark Star",
-    "description": "When a Dark Star champion dies they give increased damage, plus any previous stacks of this effect, to the nearest ally Dark Star champion.",
-    "type": "origin",
-    "sets": [
-        {
-            "style": "bronze",
-            "min": 2,
-            "max": 3,
-            "effect": "8 Attack Damage and Spell Power"
-          },
-          {
-            "style": "silver",
-            "min": 4,
-            "max": 5,
-            "effect": "18 Attack Damage and Spell Power"
-          },
-          {
-            "style": "gold",
-            "min": 6,
-            "max": 7,
-            "effect": "28 Attack Damage and Spell Power"
-          },
-          {
-            "style": "chromatic",
-            "min": 8,
-            "effect": "48 Attack Damage and Spell Power"
-          }
-    ]
-  },
-  {
     "key": "Demolitionist",
     "name": "Demolitionist",
     "description": "Damage from Demolitionists' spellcasts stuns their targets for a few seconds. (Once per spellcast)",
+    "src": "../images/traits/demolitionist.png",
     "type": "class",
     "sets": [
       {
@@ -230,6 +84,7 @@
     "name": "Infiltrator",
     "innate": "At the start of combat, Infiltrators move to the enemy's backline.",
     "description": "Infiltrators gain Attack Speed for a few seconds at the start of combat.",
+    "src": "../images/traits/infiltrator.png",
     "type": "class",
     "sets": [
       {
@@ -255,6 +110,7 @@
     "key": "ManaReaver",
     "name": "Mana-Reaver",
     "description": "Mana-Reavers' Basic Attacks increase the mana cost of their target's next spellcast by a percentage.",
+    "src": "../images/traits/manareaver.png",
     "type": "class",
     "sets": [
       {
@@ -265,22 +121,10 @@
     ]
   },
   {
-    "key": "MechPilot",
-    "name": "Mech-Pilot",
-    "description": "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "gold",
-        "min": 3,
-        "effect": "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight."
-      }
-    ]
-  },
-  {
     "key": "Mercenary",
     "name": "Mercenary",
     "innate": "Upgrades for Mercenaries' spells have a chance to appear in the shop.",
+    "src": "../images/traits/mercenary.png",
     "type": "class",
     "sets": [
       {
@@ -294,6 +138,7 @@
     "key": "Set3_Mystic",
     "name": "Mystic",
     "description": "All allies gain Magic Resistance.",
+    "src": "../images/traits/mystic.png",
     "type": "class",
     "sets": [
       {
@@ -313,6 +158,7 @@
     "key": "Paragon",
     "name": "Paragon",
     "description": "Ally Star Guardian basic attacks are converted to true damage. All other ally basic attacks are converted to magic damage.",
+    "src": "../images/traits/paragon.png",
     "type": "class",
     "sets": [
       {
@@ -326,6 +172,7 @@
     "key": "Protector",
     "name": "Protector",
     "description": "Protectors shield themselves for a few seconds whenever they cast a spell. This shield doesn't stack.",
+    "src": "../images/traits/protector.png",
     "type": "class",
     "sets": [
       {
@@ -348,34 +195,10 @@
     ]
   },
   {
-    "key": "Rebel",
-    "name": "Rebel",
-    "description": "At the start of combat, Rebels gain a shield and bonus damage for each adjacent Rebel. The shield lasts for a few seconds.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "bronze",
-        "min": 3,
-        "max": 5,
-        "effect": "150 Shield & 10% Damage"
-      },
-      {
-        "style": "gold",
-        "min": 6,
-        "max": 8,
-        "effect": "225 Shield & 12% Damage"
-      },
-      {
-        "style": "chromatic",
-        "min": 9,
-        "effect": "400 Shield & 20% Damage"
-      }
-    ]
-  },
-  {
     "key": "Sniper",
     "name": "Sniper",
     "description": "Snipers deal percentage increased damage for each hex between themselves and their target.",
+    "src": "../images/traits/sniper.png",
     "type": "class",
     "sets": [
       {
@@ -395,6 +218,7 @@
     "key": "Set3_Sorcerer",
     "name": "Sorcerer",
     "description": "All allies have increased Spell Power.",
+    "src": "../images/traits/sorcerer.png",
     "type": "class",
     "sets": [
         {
@@ -417,53 +241,10 @@
     ]
   },
   {
-    "key": "SpacePirate",
-    "name": "Space Pirate",
-    "description": "Whenever a Space Pirate lands a killing blow on a Champion there is a chance to drop extra loot.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "bronze",
-        "min": 2,
-        "max": 3,
-        "effect": "50% for 1 Gold"
-      },
-      {
-        "style": "gold",
-        "min": 4,
-        "effect": "50% for 1 Gold and 25% for a component item"
-      }
-    ]
-  },
-  {
-    "key": "StarGuardian",
-    "name": "Star Guardian",
-    "description": "Star Guardians' spellcasts grant Mana to other Star Guardians, spread among them.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "bronze",
-        "min": 3,
-        "max": 5,
-        "effect": "15 Total Mana"
-      },
-      {
-        "style": "gold",
-        "min": 6,
-        "max": 8,
-        "effect": "25 Total Mana"
-      },
-      {
-        "style": "chromatic",
-        "min": 9,
-        "effect": "60 Total Mana"
-      }
-    ]
-  },
-  {
     "key": "Starship",
     "name": "Starship",
     "innate": "Starships gain mana per second, maneuver around the board, and are immune to movement impairing effects, but can't make Basic Attacks.",
+    "src": "../images/traits/starship.png",
     "type": "class",
     "sets": [
       {
@@ -477,6 +258,7 @@
     "key": "Vanguard",
     "name": "Vanguard",
     "description": "Vanguard champions gain bonus Armor.",
+    "src": "../images/traits/vanguard.png",
     "type": "class",
     "sets": [
         {
