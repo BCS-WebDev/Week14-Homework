@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import none from './images/none.png';
 
@@ -37,6 +37,21 @@ import Traits from "../data/traits.json";
 import ChampionCard from "../components/ChampionCard";
 
 function Champions() {
+    const [championListState, setChampionListState] = useState([]);
+
+    const [filterState, setFilterState] = useState({
+        origin: "",
+        trait: ""
+    });
+    useEffect(() => {
+        loadChampions();
+    }, []);
+
+    function loadChampions() {
+        Champions.filter(filterState.origin, filterState.trait);  // filter by origin and trait - if not "none"
+        setChampionListState(filteredChampions);
+    };
+
     return (
         <div>
             <div className="col-3">

@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import none from './images/none.png';
 
@@ -10,6 +10,28 @@ import CoreItems from "../data/coreItems.json";
 import Items from "../data/items";
 
 function Galaxies(props) {
+    const [itemListState, setItemListState] = useState([]);
+
+    const [coreItemState, setCoreItemState] = useState("none");
+    useEffect(() => {
+        if (coreItemState !== "none") {
+            // filter items
+            setItemListState(filteredItems);
+        }
+    }, []);
+
+    const [itemState, setItemState] = useState("none");
+    useEffect(() => {
+        if (itemState !== "none") {
+            // filter items
+            setItemListState(filteredItems);
+        }
+    }, []);
+
+    function onItemSelect(coreOrNo) {
+        // handle state changes - if core set item to none and vice versa
+    }
+
     return (
         <div className="row text-center">
             <div className="col-3">
@@ -286,5 +308,5 @@ function Galaxies(props) {
     );
 }
   
-export default Champions;
+export default Galaxies;
   
