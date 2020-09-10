@@ -240,5 +240,14 @@
         "effect": "60 Total Mana"
       }
     ]
+  },
+  ,
+  {
+    "key": "None",
+    "name": "None",
+    "description": "No origin filter chosen.",
+    "src": "../images/none.png",
+    "type": "origin",
+    "sets": []
   }
 ]

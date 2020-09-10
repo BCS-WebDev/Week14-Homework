@@ -279,5 +279,13 @@
             "effect": "900 Armor"
           }
     ]
+  },
+  {
+    "key": "None",
+    "name": "None",
+    "description": "No trait filter chosen.",
+    "src": "../images/none.png",
+    "type": "class",
+    "sets": []
   }
 ]
