@@ -8,7 +8,7 @@ import Items from "./pages/items";
 
 import Header from "./components/Header/header";
 
-// import NoMatch from "./pages/NoMatch";
+import NoMatch from "./pages/noMatch";
 
 function App() {
     return (
@@ -18,7 +18,7 @@ function App() {
                 <hr className="bg-dark mx-sm-5"></hr><br></br><br></br>
 
                 <Switch>
-                    <Route path={["/", "/about"]}>
+                    <Route exact path={["/", "/about"]}>
                         <About/>
                     </Route>
                     <Route path="/champions">

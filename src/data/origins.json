@@ -3,7 +3,7 @@
     "key": "Astro",
     "name": "Astro",
     "description": "Astro Champions have reduced mana cost.",
-    "src": "../images/origins/astro.png",
+    "src": "../../images/origins/astro.png",
     "type": "origin",
     "sets": [
       {
@@ -17,7 +17,7 @@
     "key": "Battlecast",
     "name": "Battlecast",
     "description": "Battlecast Champions, upon dealing or taking 10 instances of damage, heal if below half health, or deal magic damage to the nearest enemy if above half.",
-    "src": "../images/origins/battlecast.png",
+    "src": "../../images/origins/battlecast.png",
     "type": "origin",
     "sets": [
       {
@@ -49,7 +49,7 @@
     "key": "Set3_Celestial",
     "name": "Celestial",
     "description": "All allies heal for some of the damage they deal with spells and attacks.",
-    "src": "../images/origins/celestial.png",
+    "src": "../../images/origins/celestial.png",
     "type": "origin",
     "sets": [
       {
@@ -75,7 +75,7 @@
     "key": "Chrono",
     "name": "Chrono",
     "description": "All allies gain attack speed every few seconds.",
-    "src": "../images/origins/chrono.png",
+    "src": "../../images/origins/chrono.png",
     "type": "origin",
     "sets": [
       {
@@ -107,7 +107,7 @@
     "key": "Cybernetic",
     "name": "Cybernetic",
     "description": "Cybernetic champions with at least one item gain Health and Attack Damage.",
-    "src": "../images/origins/cybernetic.png",
+    "src": "../../images/origins/cybernetic.png",
     "type": "origin",
     "sets": [
       {
@@ -127,7 +127,7 @@
     "key": "DarkStar",
     "name": "Dark Star",
     "description": "When a Dark Star champion dies they give increased damage, plus any previous stacks of this effect, to the nearest ally Dark Star champion.",
-    "src": "../images/origins/darkstar.png",
+    "src": "../../images/origins/darkstar.png",
     "type": "origin",
     "sets": [
         {
@@ -159,7 +159,7 @@
     "key": "MechPilot",
     "name": "Mech-Pilot",
     "description": "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight.",
-    "src": "../images/origins/mechpilot.png",
+    "src": "../../images/origins/mechpilot.png",
     "type": "origin",
     "sets": [
       {
@@ -173,7 +173,7 @@
     "key": "Rebel",
     "name": "Rebel",
     "description": "At the start of combat, Rebels gain a shield and bonus damage for each adjacent Rebel. The shield lasts for a few seconds.",
-    "src": "../images/origins/rebel.png",
+    "src": "../../images/origins/rebel.png",
     "type": "origin",
     "sets": [
       {
@@ -199,7 +199,7 @@
     "key": "SpacePirate",
     "name": "Space Pirate",
     "description": "Whenever a Space Pirate lands a killing blow on a Champion there is a chance to drop extra loot.",
-    "src": "../images/origins/spacepirate.png",
+    "src": "../../images/origins/spacepirate.png",
     "type": "origin",
     "sets": [
       {
@@ -219,7 +219,7 @@
     "key": "StarGuardian",
     "name": "Star Guardian",
     "description": "Star Guardians' spellcasts grant Mana to other Star Guardians, spread among them.",
-    "src": "../images/origins/starguardian.png",
+    "src": "../../images/origins/starguardian.png",
     "type": "origin",
     "sets": [
       {
@@ -241,12 +241,11 @@
       }
     ]
   },
-  ,
   {
     "key": "None",
     "name": "None",
     "description": "No origin filter chosen.",
-    "src": "../images/none.png",
+    "src": "../../images/none.png",
     "type": "origin",
     "sets": []
   }

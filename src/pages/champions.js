@@ -6,9 +6,9 @@ import Thumbnail from "../components/Thumbnail/Thumbnail";
 import Champions from "../data/champions";
 import Origins from "../data/origins";
 import Traits from "../data/traits.json";
-import ChampionCard from "../components/ChampionCard";
+import ChampionCard from "../components/ChampionCard/championCard";
 
-function Champions() {
+function ChampionsPage() {
     const [championListState, setChampionListState] = useState([]);
     useEffect(() => {
         console.log("Champions loaded.");
@@ -43,19 +43,19 @@ function Champions() {
     }
 
     return (
-        <div>
+        <div className="row text-center">
             <div className="col-3">
                 <div className="row mb-sm-2">
                     <div className="col-12">
                         {
-                            Origins.map(origin => <Thumbnail className={} item={origin} onClick={onThumbnailClick} height={50}/>)
+                            Origins.map(origin => <Thumbnail item={origin} onClick={onThumbnailClick} height={50}/>)
                         }
                     </div>
                 </div>
 
                 <div className="row mb-sm-5">
                     <div className="col-12">
-                        <Thumbnail className={} item={filterState.origin} onClick={} height={75}/>
+                        <Thumbnail item={filterState.origin} height={75}/>
                         <h6 className="" style={{ color:"darkgoldenrod" }}>{ filterState.origin.name}</h6>
                     </div>
                 </div>
@@ -63,14 +63,14 @@ function Champions() {
                 <div className="row mb-sm-2">
                     <div className="col-12">
                         {
-                            Traits.map(trait => <Thumbnail className={} item={trait} onClick={onThumbnailClick} height={50}/>)
+                            Traits.map(trait => <Thumbnail item={trait} onClick={onThumbnailClick} height={50}/>)
                         }
                     </div>
                 </div>
 
                 <div className="row mb-sm-5">
                     <div className="col-12">
-                        <Thumbnail className={} item={filterState.trait} onClick={} height={75}/>
+                        <Thumbnail item={filterState.trait} height={75}/>
                     <h6 className="" style={{ color:"darkgoldenrod" }}>{filterState.trait.name}</h6>
                     </div>
                 </div>
@@ -88,5 +88,5 @@ function Champions() {
     );
 }
   
-export default Champions;
+export default ChampionsPage;
   

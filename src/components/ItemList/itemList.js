@@ -14,15 +14,15 @@ function ItemList(props) {
         <li class="list-group-item " style={{ listItemStyle }}>
             <div className="row">
                 <div className="col-1 pt-sm-1">
-                    <Thumbnail className={} item={props.core1} onClick={} style={{ height: 60 }}/> 
+                    <Thumbnail item={props.core1} style={{ height: 60 }}/> 
                 </div>
                 <h3 className="col-1 pt-sm-2">+</h3>
                 <div className="col-1 pt-sm-1">
-                    <Thumbnail className={} item={props.core2} onClick={} style={{ height: 60 }}/> 
+                    <Thumbnail item={props.core2} style={{ height: 60 }}/> 
                 </div>
                 <h3 className="col-1 pt-sm-2">=</h3>
                 <div className="col-1">
-                    <Thumbnail className={} item={props.item} onClick={} style={{ height: 60 }}/> 
+                    <Thumbnail item={props.item} style={{ height: 60 }}/> 
                 </div>
                 <div className="col-7">
                     <p>

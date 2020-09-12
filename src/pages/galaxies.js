@@ -1,17 +1,7 @@
 
 import React from 'react';
 
-// import biglittle from '../images/galaxies/BigLittleLegends.png';
-// import bonanza from '../images/galaxies/Bonanza.png';
-// import freeneekos from '../images/galaxies/FreeNeekos.png';
-// import freererolls from '../images/galaxies/FreeRerolls.png';
-// import midgame from '../images/galaxies/MidGameFoN.png';
-// import smallerboards from '../images/galaxies/SmallerBoards.png';
-// import starteritems from '../images/galaxies/StartingItems.png';
-// import twoitemmax from '../images/galaxies/TwoItemMax.png';
-// import twostarcarousels from '../images/galaxies/TwoStarCarousels.png';
-
-import galaxies from './data/galaxies';
+import galaxies from '../data/galaxies';
 import GalaxyCard from "../components/GalaxyCard/galaxyCard";
 
 function Galaxies(props) {

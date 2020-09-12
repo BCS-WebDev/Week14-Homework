@@ -7,7 +7,7 @@ import ItemList from "../components/ItemList/itemList";
 import CoreItems from "../data/coreItems.json";
 import Items from "../data/items";
 
-function Items(props) {
+function ItemsPage(props) {
     const [itemListState, setItemListState] = useState([]);
     useEffect(() => {
         console.log("Items loaded.");
@@ -58,7 +58,7 @@ function Items(props) {
 
                 <div className="row mb-sm-4">
                     <div className="col-12">
-                        <Thumbnail className={} item={itemState} onClick={} height={75}/>
+                        <Thumbnail item={itemState} height={75}/>
                         <h6 className="" style={{ color:"darkgoldenrod" }}>{itemState.name}</h6>
                     </div>
                 </div>
@@ -89,5 +89,5 @@ function Items(props) {
     );
 }
   
-export default Items;
+export default ItemsPage;
   

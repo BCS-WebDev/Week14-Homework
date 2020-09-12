@@ -10,7 +10,7 @@ const navbtnStyle = {
 
 function NavBtn(props) {
     return (
-        <button className="btn btn-default float-left mt-sm-3" style={navbtnStyle}>
+        <button className={"btn btn-default mt-sm-3 " + props.float} style={navbtnStyle}>
             <a href={props.href} style={{color: "darkgoldenrod"}}>
                 {props.link}
             </a>
