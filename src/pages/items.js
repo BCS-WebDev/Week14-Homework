@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react';
 import Thumbnail from "../components/Thumbnail/Thumbnail";
 import ItemList from "../components/ItemList/itemList";
 
-import CoreItems from "../data/coreItems.json";
-import Items from "../data/items";
+import CoreItems from "../data/coreItems.js";
+import Items from "../data/items.js";
 
 function ItemsPage(props) {
     const [itemListState, setItemListState] = useState([]);
@@ -38,11 +38,10 @@ function ItemsPage(props) {
         }
 
         setItemListState(filteredItems);
-    }, []);
+    }, [itemState]);
 
-    function onThumbnailClick(event) {
-        const item = event.target.item;
-        setItemState(item);  // check that this works as intended
+    function onThumbnailClick(item) {
+        setItemState(item);  
     }
 
     return (
@@ -51,14 +50,14 @@ function ItemsPage(props) {
                 <div className="row mb-sm-3">
                     <div className="col-12">
                         {
-                            CoreItems.map(item => <Thumbnail className="p-sm-1" onClick={onThumbnailClick} item={item} height={50}/>)
+                            CoreItems.map(item => <Thumbnail className="p-sm-1" onThumbnailClick={onThumbnailClick} item={item} height={50}/>)
                         }
                     </div>
                 </div>
 
                 <div className="row mb-sm-4">
                     <div className="col-12">
-                        <Thumbnail item={itemState} height={75}/>
+                        <Thumbnail item={itemState} onThumbnailClick={() => {}} height={75}/>
                         <h6 className="" style={{ color:"darkgoldenrod" }}>{itemState.name}</h6>
                     </div>
                 </div>
@@ -66,7 +65,7 @@ function ItemsPage(props) {
                 <div className="row mb-sm-3">
                     <div className="col-12">
                         {
-                            Items.map(item => <Thumbnail className="p-sm-1" onClick={onThumbnailClick} item={item} height={50}/>)
+                            Items.map(item => <Thumbnail className="p-sm-1" onThumbnailClick={onThumbnailClick} item={item} height={50}/>)
                         }
                     </div>
                 </div>
@@ -75,12 +74,9 @@ function ItemsPage(props) {
             <div className="col-9">
                 <div className="row">
                     <div className="col-12">
-                        <ul class="list-group w-100 list-group-flush">  
-                            {
-                                itemListState.filter(item => <ItemList core1={item.core1} core2={item.core2} item={item.item}/>)
-                            }
-                        </ul>
-                        
+                        {
+                            <ItemList items={itemListState}/>
+                        }
                     </div>
                 </div>
             </div>

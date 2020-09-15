@@ -11,26 +11,32 @@ const listItemStyle = {
 
 function ItemList(props) {
     return (
-        <li class="list-group-item " style={{ listItemStyle }}>
-            <div className="row">
-                <div className="col-1 pt-sm-1">
-                    <Thumbnail item={props.core1} style={{ height: 60 }}/> 
-                </div>
-                <h3 className="col-1 pt-sm-2">+</h3>
-                <div className="col-1 pt-sm-1">
-                    <Thumbnail item={props.core2} style={{ height: 60 }}/> 
-                </div>
-                <h3 className="col-1 pt-sm-2">=</h3>
-                <div className="col-1">
-                    <Thumbnail item={props.item} style={{ height: 60 }}/> 
-                </div>
-                <div className="col-7">
-                    <p>
-                        {props.item.description}
-                    </p>
-                </div>
-            </div>
-        </li>
+        <ul class="list-group w-100 list-group-flush">
+            {
+                props.items.map(items =>
+                    <li class="list-group-item" style={ listItemStyle }>
+                        <div className="row">
+                            <div className="col-1 pt-sm-1">
+                                <Thumbnail item={items.core1} style={{ height: 60 }}/> 
+                            </div>
+                            <h3 className="col-1 pt-sm-2">+</h3>
+                            <div className="col-1 pt-sm-1">
+                                <Thumbnail item={items.core2} style={{ height: 60 }}/> 
+                            </div>
+                            <h3 className="col-1 pt-sm-2">=</h3>
+                            <div className="col-1">
+                                <Thumbnail item={items.item} style={{ height: 60 }}/> 
+                            </div>
+                            <div className="col-7">
+                                <p>
+                                    {items.item.description}
+                                </p>
+                            </div>
+                        </div>
+                    </li>   
+                )
+            }
+        </ul>
     );
 }
   
