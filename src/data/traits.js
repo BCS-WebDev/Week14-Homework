@@ -1,4 +1,4 @@
-module.exports = [
+const Traits = [
     {
       "key": "Set3_Blademaster",
       "name": "Blademaster",
@@ -288,4 +288,6 @@ module.exports = [
       "type": "trait",
       "sets": []
     }
-]
+];
+
+export default Traits;
