@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/static/js/main.562e02b1.chunk.js",
+    "main.js.map": "/static/js/main.562e02b1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2cea7679.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2cea7679.js.map",
+    "static/js/2.213bffe1.chunk.js": "/static/js/2.213bffe1.chunk.js",
+    "static/js/2.213bffe1.chunk.js.map": "/static/js/2.213bffe1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.11e06ba27ee870494b5a7c3921be14b7.js": "/precache-manifest.11e06ba27ee870494b5a7c3921be14b7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.213bffe1.chunk.js.LICENSE.txt": "/static/js/2.213bffe1.chunk.js.LICENSE.txt",
+    "static/media/38.png": "/static/media/38.32b4bfe1.png",
+    "static/media/SmallerBoards.png": "/static/media/SmallerBoards.f9c43247.png",
+    "static/media/none.png": "/static/media/none.30d64405.png",
+    "static/media/tft-bg.jpg": "/static/media/tft-bg.0859d54d.jpg",
+    "static/media/tft-logo.png": "/static/media/tft-logo.a10940f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2cea7679.js",
+    "static/js/2.213bffe1.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.562e02b1.chunk.js"
+  ]
+}
