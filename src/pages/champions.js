@@ -43,7 +43,7 @@ function ChampionsPage() {
 
     return (
         <div className="row text-center">
-            <div className="col-3">
+            <div className="col-3 pl-sm-4">
                 <div className="row mb-sm-2">
                     <div className="col-12">
                         {
@@ -55,7 +55,8 @@ function ChampionsPage() {
                 <div className="row mb-sm-5">
                     <div className="col-12">
                         <Thumbnail item={filterState.origin} onThumbnailClick={() => {}} height={75}/>
-                        <h6 className="" style={{ color:"darkgoldenrod" }}>{ filterState.origin.name}</h6>
+                        <br/>
+                        <h5 className="" style={{ color:"darkgoldenrod" }}>{ filterState.origin.name}</h5>
                     </div>
                 </div>
 
@@ -70,7 +71,8 @@ function ChampionsPage() {
                 <div className="row mb-sm-5">
                     <div className="col-12">
                         <Thumbnail item={filterState.trait} onThumbnailClick={() => {}} height={75}/>
-                    <h6 className="" style={{ color:"darkgoldenrod" }}>{filterState.trait.name}</h6>
+                        <br/>
+                        <h5 className="" style={{ color:"darkgoldenrod" }}>{filterState.trait.name}</h5>
                     </div>
                 </div>
             </div>

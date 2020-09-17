@@ -24,24 +24,24 @@ module.exports = [
           "style": "bronze",
           "min": 2,
           "max": 3,
-          "effect": "80 Healing or Damage"
+          "effect": "80 Heal / Damage"
         },
         {
           "style": "silver",
           "min": 4,
           "max": 5,
-          "effect": "180 Healing or Damage"
+          "effect": "180 Heal / Damage"
         },
         {
           "style": "gold",
           "min": 6,
           "max": 7,
-          "effect": "480 Healing or Damage"
+          "effect": "480 Heal / Damage"
         },
         {
           "style": "chromatic",
           "min": 8,
-          "effect": "1000 Healing or Damage"
+          "effect": "1000 Heal / Damage"
         }
       ]
     },
@@ -158,14 +158,14 @@ module.exports = [
     {
       key: "MechPilot",
       name: "Mech-Pilot",
-      description: "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight.",
+      description: "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech.",
       src: require("../images/origins/mechpilot.png"),
       type: "origin",
       sets: [
         {
           "style": "gold",
           "min": 3,
-          "effect": "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight."
+          "effect": "The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight."
         }
       ]
     },

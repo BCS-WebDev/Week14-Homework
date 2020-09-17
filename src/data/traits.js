@@ -82,7 +82,7 @@ module.exports = [
     {
       "key": "Infiltrator",
       "name": "Infiltrator",
-      "innate": "At the start of combat, Infiltrators move to the enemy's backline.",
+      "description": "At the start of combat, Infiltrators move to the enemy's backline.",
       "description": "Infiltrators gain Attack Speed for a few seconds at the start of combat.",
       "src": require("../images/traits/infiltrator.png"),
       "type": "trait",
@@ -123,7 +123,7 @@ module.exports = [
     {
       "key": "Mercenary",
       "name": "Mercenary",
-      "innate": "Upgrades for Mercenaries' spells have a chance to appear in the shop.",
+      "description": "Upgrades for Mercenaries' spells have a chance to appear in the shop.",
       "src": require("../images/traits/mercenary.png"),
       "type": "trait",
       "sets": [
@@ -243,7 +243,7 @@ module.exports = [
     {
       "key": "Starship",
       "name": "Starship",
-      "innate": "Starships gain mana per second, maneuver around the board, and are immune to movement impairing effects, but can't make Basic Attacks.",
+      "description": "Starships gain mana per second, maneuver around the board, and are immune to movement impairing effects, but can't make Basic Attacks.",
       "src": require("../images/traits/starship.png"),
       "type": "trait",
       "sets": [

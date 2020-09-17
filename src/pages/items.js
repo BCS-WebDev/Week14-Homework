@@ -46,8 +46,8 @@ function ItemsPage(props) {
 
     return (
         <div className="row text-center">
-            <div className="col-3">
-                <div className="row mb-sm-3">
+            <div className="col-3 pl-sm-4">
+                <div className="row mb-sm-4">
                     <div className="col-12">
                         {
                             CoreItems.map(item => <Thumbnail className="p-sm-1" onThumbnailClick={onThumbnailClick} item={item} height={50}/>)
@@ -55,14 +55,15 @@ function ItemsPage(props) {
                     </div>
                 </div>
 
-                <div className="row mb-sm-4">
+                <div className="row mb-sm-5">
                     <div className="col-12">
                         <Thumbnail item={itemState} onThumbnailClick={() => {}} height={75}/>
-                        <h6 className="" style={{ color:"darkgoldenrod" }}>{itemState.name}</h6>
+                        <br/>
+                        <h5 className="" style={{ color:"darkgoldenrod" }}>{itemState.name}</h5>
                     </div>
                 </div>
 
-                <div className="row mb-sm-3">
+                <div className="row">
                     <div className="col-12">
                         {
                             Items.map(item => <Thumbnail className="p-sm-1" onThumbnailClick={onThumbnailClick} item={item} height={50}/>)
