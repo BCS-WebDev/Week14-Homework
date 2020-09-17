@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/BCS-WebDev/Week14-Homework/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/BCS-WebDev/Week14-Homework/static/js/main.d7a7ae57.chunk.js",
+    "main.js.map": "/BCS-WebDev/Week14-Homework/static/js/main.d7a7ae57.chunk.js.map",
+    "runtime-main.js": "/BCS-WebDev/Week14-Homework/static/js/runtime-main.c454b3d6.js",
+    "runtime-main.js.map": "/BCS-WebDev/Week14-Homework/static/js/runtime-main.c454b3d6.js.map",
+    "static/js/2.213bffe1.chunk.js": "/BCS-WebDev/Week14-Homework/static/js/2.213bffe1.chunk.js",
+    "static/js/2.213bffe1.chunk.js.map": "/BCS-WebDev/Week14-Homework/static/js/2.213bffe1.chunk.js.map",
+    "index.html": "/BCS-WebDev/Week14-Homework/index.html",
+    "precache-manifest.bb0beca162eea3dd4565ff4dd8dfdb5d.js": "/BCS-WebDev/Week14-Homework/precache-manifest.bb0beca162eea3dd4565ff4dd8dfdb5d.js",
+    "service-worker.js": "/BCS-WebDev/Week14-Homework/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/BCS-WebDev/Week14-Homework/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.213bffe1.chunk.js.LICENSE.txt": "/BCS-WebDev/Week14-Homework/static/js/2.213bffe1.chunk.js.LICENSE.txt",
+    "static/media/38.png": "/BCS-WebDev/Week14-Homework/static/media/38.32b4bfe1.png",
+    "static/media/SmallerBoards.png": "/BCS-WebDev/Week14-Homework/static/media/SmallerBoards.f9c43247.png",
+    "static/media/none.png": "/BCS-WebDev/Week14-Homework/static/media/none.30d64405.png",
+    "static/media/tft-bg.jpg": "/BCS-WebDev/Week14-Homework/static/media/tft-bg.0859d54d.jpg",
+    "static/media/tft-logo.png": "/BCS-WebDev/Week14-Homework/static/media/tft-logo.a10940f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c454b3d6.js",
+    "static/js/2.213bffe1.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.d7a7ae57.chunk.js"
+  ]
+}
